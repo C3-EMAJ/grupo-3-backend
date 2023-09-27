@@ -1,22 +1,20 @@
 # grupo-3-backend
 
-## Creating your venv environment (Running localy)
-```
-python3 -v venv .venv
-```
-to activate 
-```
-source .env/bin/activate
-```
-To deactivate
-```
-deactivate
-```
+## Baby-steps
+The first thing you need to do on a NodeJS repository is install all the dependencies
+inside package.json. To complete this taks, promt:
 
-### install packages 
-pip install requirements.txt
+```
+npm i
+```
+Then, to run your application
+```
+npm run dev
+```
+Go to http://localhost:3000/ and voila! Your server is running
 
-### Running inside Docker container
+
+### Running Postgress inside container
 first, build the image
 ```
 docker build .
@@ -25,11 +23,5 @@ then run the image that was builded
 ```
 docker-compose up
 ```
-go to http://localhost:8000/
 
 Postgress will be running on user@localhost:5432/mydb-dev
-### running Django
-```
-python manage.py migrate
-python manage.py runserver
-```

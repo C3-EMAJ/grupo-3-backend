@@ -1,0 +1,27 @@
+{
+  "name": "emaj-3",
+  "version": "1.0.0",
+  "description": "## Creating your venv environment (Running localy) ``` python3 -v venv .venv ``` to activate  ``` source .env/bin/activate ``` To deactivate ``` deactivate ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C3-EMAJ/grupo-3-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C3-EMAJ/grupo-3-backend/issues"
+  },
+  "homepage": "https://github.com/C3-EMAJ/grupo-3-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.33.0"
+  }
+}
